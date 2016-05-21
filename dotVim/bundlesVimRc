@@ -39,8 +39,8 @@ NeoBundle "jordwalke/VimAutoMakeDirectory"
 
 
 " ======================= Great Auto Window Resizer ============================
-NeoBundle "https://github.com/zhaocai/GoldenView.Vim.git"
-let g:goldenview__enable_default_mapping = 0
+"NeoBundle "https://github.com/zhaocai/GoldenView.Vim.git"
+"let g:goldenview__enable_default_mapping = 0
 " ==============================================================================
 
 " =================== Impressive window switching plugin =======================

@@ -1,1 +1,3 @@
 " Add custom bundles here using the `NeoBundle` command.
+
+NeoBundle "terryma/vim-multiple-cursors"

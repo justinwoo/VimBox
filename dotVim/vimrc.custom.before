@@ -1,3 +1,2 @@
-" Overwrite this file with whatever you want. This will be executed before
-" loading any of the stock bundles/settings.
-" - You can load bundles using `NeoBundle` commands here.
+"configure TS-vim?
+let g:typescript_compiler_options = 'target ES5'
