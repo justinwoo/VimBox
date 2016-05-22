@@ -7,7 +7,7 @@ set clipboard=unnamed
 set shortmess+=A
 
 ""set term colors
-colors flatlandia
+colors elflord
 
 ""show me the numbers
 set number
@@ -36,6 +36,7 @@ map <leader>q :q<cr>
 map <leader>n :NERDTreeTabsToggle<cr>
 vmap <leader>/ <c-_><c-_>
 map <leader>/ <c-_><c-_>
+map <C-P> :CtrlP<cr>
 
 "make opening splits easy
 map <leader>v :vsplit<cr><C-W><C-W>
@@ -45,7 +46,7 @@ map <leader>u :GundoToggle<cr><C-W><C-W>
 
 "make ctrl-p ignore better directories
 let g:ctrlp_custom_ignore = {
-\ 'dir':  '\.git$\|\.yardoc\|node_modules\|^public\|bower_components\|dist\|build\|log\/\|tmp\|data$',
+\ 'dir':  '\.git$\|\.yardoc\|node_modules\|^public\|bower_components\|dist\|build\|log\/\|tmp\|data|\bundle$',
 \ 'file': '\.gz$\|\.so$\|\.dat$\|\.DS_Store$'
 \ }
 
