@@ -9,6 +9,9 @@ set shortmess+=A
 ""set term colors
 colors flatlandia
 
+""show me the numbers
+set number
+
 "make commands easier to input
 map ; :
 
@@ -31,6 +34,8 @@ map <leader>q :q<cr>
 
 "want some familiar keybindings
 map <leader>n :NERDTreeTabsToggle<cr>
+vmap <leader>/ <c-_><c-_>
+map <leader>/ <c-_><c-_>
 
 "make opening splits easy
 map <leader>v :vsplit<cr><C-W><C-W>
@@ -53,7 +58,6 @@ let g:jsx_ext_required = 0
 let g:psc_ide_log_level = 2
 
 "some shit required by Reason
-
 if !empty(system('which opam'))
   " Merlin plugin
   let s:ocamlmerlin=substitute(system('opam config var share'),'\n$','','') . "/merlin"

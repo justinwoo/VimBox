@@ -1,3 +1,7 @@
 " Add custom bundles here using the `NeoBundle` command.
 
 NeoBundle "terryma/vim-multiple-cursors"
+NeoBundle "raichoo/purescript-vim"
+NeoBundle "FrigoEU/psc-ide-vim"
+NeoBundle "ElmCast/elm-vim"
+NeoBundle "mileszs/ack.vim"

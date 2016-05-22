@@ -48,11 +48,11 @@ function! NERDTreeCustomNoOpenFile(node)
     " call a:node.activate({'where': 'p', 'reuse': g:NERDTreeCustomReuseWindows})
 endfunction
 
-call NERDTreeAddKeyMap({
-       \ 'key': '<ENTER>',
-       \ 'scope': 'FileNode',
-       \ 'callback': 'NERDTreeCustomOpenInTab',
-       \ 'quickhelpText': 'open in new tab reusing if able' })
+" call NERDTreeAddKeyMap({
+"        \ 'key': '<ENTER>',
+"        \ 'scope': 'FileNode',
+"        \ 'callback': 'NERDTreeCustomOpenInTab',
+"        \ 'quickhelpText': 'open in new tab reusing if able' })
 
 " If you're opening a new instance of vim - hitting enter should open in the
 " first buffer not a new tab! #dotherightthing
