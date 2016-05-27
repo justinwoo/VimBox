@@ -37,6 +37,8 @@ map <leader>n :NERDTreeTabsToggle<cr>
 vmap <leader>/ <c-_><c-_>
 map <leader>/ <c-_><c-_>
 map <C-P> :CtrlP<cr>
+map <leader>gb :Gblame<cr>
+map <leader>gd :Gdiff<cr>
 
 "make opening splits easy
 map <leader>v :vsplit<cr><C-W><C-W>
